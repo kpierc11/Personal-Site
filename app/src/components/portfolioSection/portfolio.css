@@ -1,0 +1,19 @@
+.portfolio-container {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.portfolio-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.portfolio-column {
+  width: 350px;
+  height: 200px;
+  margin: 3%;
+}
