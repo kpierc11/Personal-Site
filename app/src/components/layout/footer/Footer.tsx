@@ -1,6 +1,5 @@
 import React, { ReactElement, useEffect, useState } from "react";
 import "../footer/footer.css";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 interface Props {}
 

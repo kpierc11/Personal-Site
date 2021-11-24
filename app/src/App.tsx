@@ -1,4 +1,5 @@
 import FadeInAnimation from "./components/animation/FadeInAnimation";
+import Banner from "./components/headerSection/Banner";
 import Footer from "./components/layout/footer/Footer";
 import Navbar from "./components/layout/header/Navbar";
 import PortfolioSectionOne from "./components/portfolioSection/PortfolioSectionOne";
@@ -8,6 +9,9 @@ function App() {
   return (
     <>
       <Navbar />
+      <FadeInAnimation>
+        <Banner></Banner>
+      </FadeInAnimation>
       <FadeInAnimation>
         <PortfolioSectionOne></PortfolioSectionOne>
       </FadeInAnimation>
