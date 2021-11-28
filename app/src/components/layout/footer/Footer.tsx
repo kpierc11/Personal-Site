@@ -1,4 +1,5 @@
 import React, { ReactElement, useEffect, useState } from "react";
+import { FaFacebook, FaGithub, FaLinkedin, FaReact } from "react-icons/fa";
 import "../footer/footer.css";
 
 interface Props {}
@@ -15,36 +16,26 @@ function Footer({}: Props): ReactElement {
   }
 
   return (
-    <div style={{paddingTop:'10%'}}>
     <div className="footer-container">
       <div className="footer-row">
         <div className="footer-col">
-          <h1 className="footer-header">Navigation</h1>
-          <ul className="footer-list">
-            <li>Home </li>
-            <li>About </li>
-            <li>My Work</li>
-          </ul>
-        </div>
-
-        <div className="footer-col">
-          <h1 className="footer-header">Other Sites</h1>
-          <ul className="footer-list">
-            <li>Home </li>
-            <li>About </li>
-            <li>My Work</li>
-          </ul>
-        </div>
-        <div className="footer-col">
-          <h1 className="footer-header">Social Media</h1>
-          <ul className="footer-list">
-            <li>Home </li>
-            <li>About </li>
-            <li>My Work</li>
-          </ul>
+          <p className="footer-header">423-552-5256</p>
+          <p className="footer-header">kalebpierce@gmail.com</p>
+          <div className="social-icons">
+            <a>
+              <FaFacebook className="social-icon"></FaFacebook>
+            </a>
+            <a>
+              <FaGithub className="social-icon"></FaGithub>
+            </a>
+            <a>
+              <FaLinkedin className="social-icon"></FaLinkedin>
+            </a>
+          </div>
+          <p className="footer-sub-header">Copyright 2021 Made By Kaleb Pierce</p>
+          <p className="footer-sub-header">Created with React <FaReact className="react-icon"/></p>
         </div>
       </div>
-    </div>
     </div>
   );
 }

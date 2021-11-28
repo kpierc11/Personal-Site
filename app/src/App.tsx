@@ -1,22 +1,25 @@
-import FadeInAnimation from "./components/animation/FadeInAnimation";
+import FadeInAnimation from "./scripts/animation/FadeInAnimation";
 import Banner from "./components/headerSection/Banner";
 import Footer from "./components/layout/footer/Footer";
 import Navbar from "./components/layout/header/Navbar";
 import PortfolioSectionOne from "./components/portfolioSection/PortfolioSectionOne";
 import PortfolioSectionTwo from "./components/portfolioSection/PortfolioSectionTwo";
+import Skills from "./components/skillsSection/Skills";
+import MobileAppSection from "./components/mobileAppSection/MobileAppSection";
 
 function App() {
   return (
     <>
       <Navbar />
+      <Banner></Banner>
       <FadeInAnimation>
-        <Banner></Banner>
-      </FadeInAnimation>
-      <FadeInAnimation>
-        <PortfolioSectionOne></PortfolioSectionOne>
+        <Skills></Skills>
       </FadeInAnimation>
       <FadeInAnimation>
         <PortfolioSectionTwo></PortfolioSectionTwo>
+      </FadeInAnimation>
+      <FadeInAnimation>
+        <MobileAppSection></MobileAppSection>
       </FadeInAnimation>
       <Footer />
     </>

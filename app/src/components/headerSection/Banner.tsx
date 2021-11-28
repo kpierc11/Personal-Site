@@ -8,13 +8,13 @@ function Banner() {
     <div className="banner-container">
       <div className="banner-row">
         <div className="banner-column">
-          <Card image={"/images/kaleb_pic.jpg"}></Card>
+          <img className="banner-image" src={"/images/kaleb_pic.jpg"}></img>
         </div>
         <div className="banner-column">
-          <h2 className="header">
+          <p className="header">
             Web Designer & Software Developer Skilled in Front End Design,
             Backend Server & Database Management
-          </h2>
+          </p>
           <div className="social-icons">
               <a><FaFacebook className="social-icon"></FaFacebook></a>
               <a><FaGithub className="social-icon"></FaGithub></a>
