@@ -1,4 +1,3 @@
-import React from "react";
 import * as Phaser from "phaser";
 
 class Game extends Phaser.Scene {

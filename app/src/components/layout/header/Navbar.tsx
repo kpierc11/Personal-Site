@@ -20,7 +20,7 @@ function Navbar() {
           <li>
             <a style={{ textDecoration: "none", color: "black" }} href="#home">
               Skills
-            </a>{" "}
+            </a>
           </li>
           <li>
             <a

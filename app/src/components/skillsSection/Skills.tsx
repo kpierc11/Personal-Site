@@ -20,7 +20,6 @@ import {
   FaMagento,
   FaOpencart,
   FaPhp,
-  FaServer,
   FaShopify,
   FaWordpress,
 } from "react-icons/fa";

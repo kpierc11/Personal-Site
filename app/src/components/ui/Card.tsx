@@ -1,6 +1,3 @@
-import { url } from "inspector";
-import React from "react";
-import { IconType } from "react-icons/lib";
 import "../ui/card.css";
 
 interface ICard {
