@@ -52,23 +52,25 @@
   margin: 8px;
 }
 
-.social-icons {
+.footer-social-icons {
   display: flex;
   flex-direction: row;
   justify-content: center;
   padding-top: 10%;
 }
 
-.social-icon {
+.footer-social-icon {
   font-size: 3em;
   margin: 5px;
+  transition: .2s ease;
   color: white;
 }
 
-.social-icon:hover {
-  color: gray;
+.footer-social-icon:hover {
+  color: lightblue;
   cursor: pointer;
-  transition: 1s;
+  transform:translateY(-10px);
+  transition: .2s ease;
 }
 
 @media only screen and (max-width: 768px) {

@@ -1,20 +1,13 @@
-import React, { ReactElement, useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../header/Navbar.css";
 import { BiMenu } from "react-icons/bi";
+import { GiAncientSword } from "react-icons/gi";
 
-interface Props {}
-
-function Navbar({}: Props): ReactElement {
-  const windowHeight = window.outerHeight;
-
+function Navbar() {
   const [toggleDropdown, setDropdownToggle] = useState(false);
 
   function handleClick() {
     !toggleDropdown ? setDropdownToggle(true) : setDropdownToggle(false);
-  }
-
-  if (windowHeight < 768) {
-    let navbar = document.querySelector(".navbar");
   }
 
   return (
@@ -24,17 +17,60 @@ function Navbar({}: Props): ReactElement {
           <BiMenu className="mobile-icon" onClick={handleClick}></BiMenu>
         </div>
         <ul className="navbar">
-          <li>Home </li>
-          <li>About </li>
-          <li>My Work</li>
+          <li>
+            <a style={{ textDecoration: "none", color: "black" }} href="#home">
+              Skills
+            </a>{" "}
+          </li>
+          <li>
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="#about-me"
+            >
+              About Me
+            </a>
+          </li>
+          <li>
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="#my-work"
+            >
+              My Work
+            </a>
+          </li>
         </ul>
-        <div className={toggleDropdown ? "mobile-dropdown-active" :"mobile-dropdown"}>
-          <ul className="mobile-dropdown-nav">
-            <li>Home </li>
-            <li>About </li>
-            <li>My Work</li>
-          </ul>
-        </div>
+        <p className="logo">
+          <GiAncientSword className="sword-icon"></GiAncientSword>KJP
+        </p>
+      </div>
+      <div
+        className={
+          toggleDropdown ? "mobile-dropdown-active" : "mobile-dropdown"
+        }
+      >
+        <ul className="mobile-dropdown-nav">
+          <li>
+            <a style={{ textDecoration: "none", color: "black" }} href="#home">
+              Skills
+            </a>
+          </li>
+          <li>
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="#about-me"
+            >
+              About Me
+            </a>
+          </li>
+          <li>
+            <a
+              style={{ textDecoration: "none", color: "black" }}
+              href="#my-work"
+            >
+              My Work
+            </a>
+          </li>
+        </ul>
       </div>
     </div>
   );

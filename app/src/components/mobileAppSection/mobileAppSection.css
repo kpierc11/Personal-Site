@@ -1,20 +1,36 @@
 .mobile-app-section-container {
-    width: 100%;
-    height: 100%;
-    text-align: center;
-  }
-  
-  .mobile-app-section-row {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .mobile-app-section-column {
-    width: 400px;
-    height: 500px;
-    background-color:'blue';
-    margin: 3%;
-  }
+  width: 100%;
+  height: 100%;
+  text-align: center;
+}
+
+.mobile-app-section-row {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.mobile-app-section-column {
+  width: 1200px;
+  height: 500px;
+  background-color: "blue";
+  margin: 3%;
+}
+
+.mobile-app-section-card {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+  display:flex;
+  justify-content: left;
+}
+
+.phone-image {
+  width:auto;
+  height:100%;
+  padding-left:5%;
+}
