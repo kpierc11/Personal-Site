@@ -26,14 +26,14 @@
 .about-card {
   height: 300px;
   width: 100%;
-  padding:1%;
+  padding: 1%;
   transition: 0.2s;
   cursor: pointer;
 }
 
 .about-card-icon {
   font-size: 10em;
-  padding:1%;
+  padding: 1%;
   color: #483d8b;
 }
 
@@ -52,4 +52,10 @@
 .show-text {
   transition: 0.5s ease-in;
   opacity: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .hide-text {
+    opacity: 1;
+  }
 }

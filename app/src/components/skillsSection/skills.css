@@ -52,3 +52,10 @@
   margin: 12px;
   color: #483d8b;
 }
+
+@media only screen and (max-width: 768px) {
+  .skills-column {
+    width:80%;
+    height:500px;
+  }
+}
