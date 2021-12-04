@@ -14,7 +14,7 @@
   flex-direction: row;
   align-items: center;
   padding: 2%;
-  height: 50px;
+  height: 30px;
   width: 100%;
 }
 
@@ -74,17 +74,12 @@
   width: auto;
 }
 
-.mobile-dropdown-nav li:after {
-  display: block;
-  content: "";
-  border-bottom: solid 3px #483d8b;
-  transform: scaleX(0);
-  transition: transform 200ms ease-in-out;
+.mobile-dropdown-nav li {
+  margin-right: 5%;
+  margin-bottom:5%;
+  font-weight: 600;
 }
 
-.mobile-dropdown-nav li:hover:after {
-  transform: scaleX(1);
-}
 
 .mobile-dropdown-active {
   visibility: visible;
@@ -95,6 +90,7 @@
   z-index: -1;
   border-top: 2px solid #483d8b;
   transition: 0.2s;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .logo {
@@ -103,7 +99,7 @@
   border-radius: 20px;
   color: white;
   font-weight: 900px;
-  padding: 10px;
+  padding: 6px;
   letter-spacing: 5px;
   display: flex;
   flex-direction: column;
@@ -147,6 +143,7 @@
   }
   .sword-icon {
     font-size: 20px;
+    padding: 2px;
   }
   .logo {
     font-size: 12px;
@@ -156,5 +153,11 @@
 @media only screen and (min-width: 768px) {
   .mobile-dropdown-active {
     visibility: hidden;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .row {
+    height:50px;
   }
 }
