@@ -27,7 +27,7 @@ function About() {
       <div className="about-row">
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <GiGameConsole className="about-card"></GiGameConsole>
+            <GiGameConsole className="about-card-icon"></GiGameConsole>
             <p className="hide-text">
               I have always loved video games since I was a kid. My favorite
               Game is definetly Legend of Zelda Link to the Past
@@ -36,7 +36,7 @@ function About() {
         </div>
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <GiFilmProjector className="about-card"></GiFilmProjector>
+            <GiFilmProjector className="about-card-icon"></GiFilmProjector>
             <p className="hide-text">
               The best set of movies I've ever seen has to be the Lord of the
               Rings Trilogy. I was lucky to watch the second and third in
@@ -46,7 +46,7 @@ function About() {
         </div>
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <GiBookshelf className="about-card"></GiBookshelf>
+            <GiBookshelf className="about-card-icon"></GiBookshelf>
             <p className="hide-text">
               I recieved my Associate Degree of Computer Programmer at Northeast
               State Community College Blountville, TN
@@ -55,7 +55,7 @@ function About() {
         </div>
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <GiSmartphone className="about-card"></GiSmartphone>
+            <GiSmartphone className="about-card-icon"></GiSmartphone>
             <p className="hide-text">
               I'm currently working to improve my skills in the mobile app
               development field. I'm learning swift for IOS and React Native for
@@ -65,7 +65,7 @@ function About() {
         </div>
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <GiShop className="about-card"></GiShop>
+            <GiShop className="about-card-icon"></GiShop>
             <p className="hide-text">
               I'm also a little bit of an entrepenuer. I've recently started my
               own software company which I hope to make, websites, mobile apps
@@ -75,7 +75,7 @@ function About() {
         </div>
         <div className="about-column">
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
-            <MdOutlineFamilyRestroom className="about-card"></MdOutlineFamilyRestroom>
+            <MdOutlineFamilyRestroom className="about-card-icon"></MdOutlineFamilyRestroom>
             <p className="hide-text">
               I've got two brothers and two sisters, and four dogs. 
             </p>

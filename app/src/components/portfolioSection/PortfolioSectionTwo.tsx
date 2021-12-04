@@ -42,7 +42,7 @@ function PortfolioSectionTwo() {
             rel="noopener noreferrer"
           >
             <Card
-              image={"https://kalebjp.com/assets/cabinet-saver-site.PNG"}
+              image={"/images/cabinet-saver.PNG"}
             ></Card>
           </a>
         </div>
