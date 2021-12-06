@@ -8,11 +8,11 @@
   background-image: url("https://cdn.pixabay.com/photo/2017/03/12/16/00/blue-2137334_1280.jpg"),
     linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
   background-size: cover;
-  background-attachment:fixed;
+  background-attachment: fixed;
   background-blend-mode: overlay;
   background-position: center;
-  margin-bottom:5%;
-  padding-top:110.767px;
+  margin-bottom: 5%;
+  padding-top: 110.767px;
 }
 
 .banner-row {
@@ -25,7 +25,7 @@
 }
 
 .banner-column {
-  width:500px;
+  width: 500px;
   margin: 3%;
 }
 
@@ -51,48 +51,56 @@
 .social-icon {
   font-size: 4em;
   margin: 5px;
-  transition: .2s;
+  transition: 0.2s;
   color: white;
 }
 
 .social-icon:hover {
   color: #483d8b;
   cursor: pointer;
-  transform:translateY(-10px);
-  transition: .2s;
+  transform: translateY(-10px);
+  transition: 0.2s;
+}
+
+.resume-button-container {
+  display: flex;
+  justify-content: center;
 }
 
 .header-button {
+  margin-top: 30px;
   border: 3px solid white;
-  margin-top: 20px;
-  
-  background-color:transparent;
-  color:white;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
   cursor: pointer;
-  width:auto;
-  transition:.2s;
-  height:auto;
-  padding:2%;
+  width: 30%;
+  transition: 0.2s;
+  height: auto;
+  padding: 2%;
 }
 
 .header-button:hover {
   background-color: #483d8b;
   border: 3px solid #483d8b;
-  transition:.2s;
-  transform:translateY(-10px);
+  transition: 0.2s;
+  transform: translateY(-10px);
 }
-
 
 @media only screen and (max-width: 768px) {
   .banner-image {
-    width:300px;
-    height:300px;
+    width: 300px;
+    height: 300px;
+  }
+
+  .header-button {
+    font-size: 13px;
   }
 
   .banner-container {
     background-image: url("https://cdn.pixabay.com/photo/2017/03/12/16/00/blue-2137334_1280.jpg"),
-    linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
-    width:auto;
-    height:auto;
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    width: auto;
+    height: auto;
   }
 }

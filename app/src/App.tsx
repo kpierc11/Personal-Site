@@ -21,9 +21,6 @@ function App() {
       <FadeInAnimation>
         <PortfolioSectionTwo></PortfolioSectionTwo>
       </FadeInAnimation>
-      <FadeInAnimation>
-        <MobileAppSection></MobileAppSection>
-      </FadeInAnimation>
       <Footer />
     </>
   );

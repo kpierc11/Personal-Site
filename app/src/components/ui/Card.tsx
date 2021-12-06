@@ -13,8 +13,6 @@ function Card({ image }: ICard) {
 
   return (
     <div className={"card-container"} style={background}>
-      <div></div>
-      <div className="overlay"></div>
     </div>
   );
 }

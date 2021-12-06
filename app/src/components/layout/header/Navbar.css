@@ -63,7 +63,7 @@
   visibility: hidden;
   position: absolute;
   width: 100%;
-  transition: 0.2s;
+  transition: 0.2s ease-out;
   top: 65.6px;
 }
 .mobile-dropdown-nav {

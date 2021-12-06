@@ -40,7 +40,19 @@ function Banner() {
               <FaLinkedin className="social-icon"></FaLinkedin>
             </a>
           </div>
-          <button className="header-button">Download Resume</button>
+         
+            <div className="resume-button-container">
+              <a
+                className="header-button"
+                href="assets/kaleb-pierce-resume-web-developer.pdf"
+                download
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Download Resume
+              </a>
+            </div>
+          
         </div>
       </div>
     </div>

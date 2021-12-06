@@ -8,21 +8,7 @@
 }
 
 .card-container:hover {
-    opacity:50%;
-    transition:.5s;
+    transform: scale(1.07);
+    transition:1s;
     cursor:pointer;
-}
-
-.overlay {
-    position:relative;
-    background-color: black;
-    width:100px;
-    height:100px;
-    top:0;
-    left:0;
-    bottom:0;
-    right:0;
-    width:auto;
-    height:auto;
-    color:black;   
 }

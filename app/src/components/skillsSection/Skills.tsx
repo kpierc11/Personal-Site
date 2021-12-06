@@ -12,15 +12,22 @@ import {
   SiBulma,
   SiCodeigniter,
   SiFirebase,
+  SiMacos,
   SiMysql,
+  SiPhpstorm,
   SiPrestashop,
+  SiVisualstudio,
 } from "react-icons/si";
 import {
   FaDesktop,
+  FaLess,
   FaMagento,
+  FaMicrosoft,
   FaOpencart,
   FaPhp,
+  FaSass,
   FaShopify,
+  FaUbuntu,
   FaWordpress,
 } from "react-icons/fa";
 import { GiPencilRuler, GiServerRack } from "react-icons/gi";
@@ -47,6 +54,9 @@ function Skills() {
             <DiJqueryLogo className="language-icon"></DiJqueryLogo>
             <SiBootstrap className="language-icon"></SiBootstrap>
             <SiBulma className="language-icon"></SiBulma>
+            <p className="skill-text">Preprocessors</p>
+            <FaSass className="language-icon"></FaSass>
+            <FaLess className="language-icon"></FaLess>
           </div>
         </div>
         <div className="skills-column">
@@ -77,6 +87,13 @@ function Skills() {
             <FaOpencart className="language-icon"> </FaOpencart>
             <SiPrestashop className="language-icon"></SiPrestashop>
             <FaShopify className="language-icon"></FaShopify>
+            <p className="skill-text">OS</p>
+            <FaMicrosoft className="language-icon"></FaMicrosoft>
+            <FaUbuntu className="language-icon"></FaUbuntu>
+            <SiMacos className="language-icon"></SiMacos>
+            <p className="skill-text">IDE</p>
+            <SiVisualstudio className="language-icon"></SiVisualstudio>
+            <SiPhpstorm className="language-icon"></SiPhpstorm>
           </div>
         </div>
       </div>
