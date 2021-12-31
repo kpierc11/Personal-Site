@@ -5,7 +5,13 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 import Game from "./platformer/js/Game";
 
-ReactDOM.render(<App />, document.getElementById("root"));
+const game = new Game();
+
+game.initialize();
+
+if (!game) {
+    ReactDOM.render(<App />, document.getElementById("root"));
+}
 
 
 // If you want to start measuring performance in your app, pass a function
