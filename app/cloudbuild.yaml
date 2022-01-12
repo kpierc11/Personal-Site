@@ -1,10 +1,13 @@
-runtime: nodejs12
-handlers:
-# Serve all static files with url ending with a file extension
-- url: /(.*\..+)$
-  static_files: build/\1
-  upload: build/(.*\..+)$
-# Catch all handler to index.html
-- url: /.*
-  static_files: build/index.html
-  upload: build/index.html
+steps:
+# Install
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['install']
+# Test
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'test:unit']
+# Build
+- name: 'gcr.io/cloud-builders/npm'
+  args: ['run', 'build']
+# Deploy
+- name: 'gcr.io/$PROJECT_ID/firebase'
+  args: ['deploy']
