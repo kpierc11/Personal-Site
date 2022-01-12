@@ -33,8 +33,7 @@ function MobileAppSection() {
               <div className="app-button-container">
                 <a
                   className="app-button"
-                  href="assets/kaleb-pierce-resume-web-developer.pdf"
-                  download
+                  href="https://expo.dev/@kpierc11/todo-application"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -68,8 +67,7 @@ function MobileAppSection() {
               <div className="app-button-container">
                 <a
                   className="app-button"
-                  href="assets/kaleb-pierce-resume-web-developer.pdf"
-                  download
+                  href="https://expo.dev/@kpierc11/incredible-towns-app"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
