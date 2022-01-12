@@ -5,7 +5,7 @@ function PortfolioSectionTwo() {
   return (
     <div className="portfolio-container">
       <h1 id="my-work" style={{ textAlign: "center" }}>
-        My Work
+        Websites
       </h1>
       <div className="portfolio-row">
         <div className="portfolio-column">
@@ -71,6 +71,24 @@ function PortfolioSectionTwo() {
             rel="noopener noreferrer"
           >
             <Card image={"/images/healthy_site.PNG"}></Card>
+          </a>
+        </div>
+        <div className="portfolio-column" style={{justifyContent:'flex-start'}}>
+          <a
+            href="http://phpstack-566797-1951162.cloudwaysapps.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card image={"/images/Phone-store-demo.PNG"}></Card>
+          </a>
+        </div>
+        <div className="portfolio-column" style={{justifyContent:'flex-start'}}>
+          <a
+            href="http://phpstack-566797-2030780.cloudwaysapps.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card image={"/images/clothing-store-demo.PNG"}></Card>
           </a>
         </div>
       </div>
