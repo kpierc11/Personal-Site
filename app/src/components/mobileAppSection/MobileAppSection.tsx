@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "../mobileAppSection/mobileAppSection.css";
 import { DiReact } from "react-icons/di";
 import { SiFirebase, SiTypescript } from "react-icons/si";

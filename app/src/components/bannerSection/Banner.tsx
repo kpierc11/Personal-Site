@@ -1,4 +1,4 @@
-import "../headerSection/banner.css";
+import "./banner.css";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Banner() {

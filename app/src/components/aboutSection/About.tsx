@@ -1,19 +1,15 @@
-import React, { ReactEventHandler, useState } from "react";
+import React from "react";
 import {
   GiBookshelf,
-  GiFamilyHouse,
-  GiFamilyTree,
   GiFilmProjector,
   GiGameConsole,
   GiShop,
   GiSmartphone,
 } from "react-icons/gi";
-import {MdOutlineFamilyRestroom} from "react-icons/md";
+import { MdOutlineFamilyRestroom } from "react-icons/md";
 import "../aboutSection/about.css";
 
 function About() {
-  const [hiddenText, showHiddenText] = useState(false);
-
   function handleMouseOver(e: React.MouseEvent) {
     const text = e.currentTarget.querySelector(".hide-text");
     text?.setAttribute("class", "show-text");
@@ -77,7 +73,7 @@ function About() {
           <div className="about-card" onMouseOver={(e) => handleMouseOver(e)}>
             <MdOutlineFamilyRestroom className="about-card-icon"></MdOutlineFamilyRestroom>
             <p className="hide-text">
-              I've got two brothers and two sisters, and four dogs. 
+              I've got two brothers and two sisters, and four dogs.
             </p>
           </div>
         </div>

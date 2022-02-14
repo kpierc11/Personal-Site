@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../header/Navbar.css";
+import "./Navbar.css";
 import { BiMenu } from "react-icons/bi";
 import { GiAncientSword } from "react-icons/gi";
 
