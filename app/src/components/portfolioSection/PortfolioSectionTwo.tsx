@@ -73,24 +73,7 @@ function PortfolioSectionTwo() {
             <Card image={"/images/healthy_site.PNG"}></Card>
           </a>
         </div>
-        <div className="portfolio-column" style={{justifyContent:'flex-start'}}>
-          <a
-            href="http://phpstack-566797-1951162.cloudwaysapps.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card image={"/images/Phone-store-demo.PNG"}></Card>
-          </a>
-        </div>
-        <div className="portfolio-column" style={{justifyContent:'flex-start'}}>
-          <a
-            href="http://phpstack-566797-2030780.cloudwaysapps.com/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Card image={"/images/clothing-store-demo.PNG"}></Card>
-          </a>
-        </div>
+       
       </div>
     </div>
   );
