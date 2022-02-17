@@ -1,4 +1,3 @@
-# frontend deployment
 # Step 1: For installing dependencies
 - name: 'gcr.io/cloud-builders/npm'
   dir: "app"
@@ -13,5 +12,4 @@
 - name: 'gcr.io/cloud-builders/gcloud'
   dir: "build"
   args: ["app", "deploy"]
-  # timeout specified for this step as deployment may take more that default time(10min)
   timeout: "30m0s"
