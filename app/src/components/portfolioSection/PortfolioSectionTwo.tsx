@@ -73,7 +73,6 @@ function PortfolioSectionTwo() {
             <Card image={"/images/healthy_site.PNG"}></Card>
           </a>
         </div>
-       
       </div>
     </div>
   );
