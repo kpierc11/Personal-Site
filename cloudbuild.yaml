@@ -11,6 +11,6 @@ steps:
 
 # Step 3: This step will execute app.yaml in your ui folder and deploy your app based on the configuration specified
 - name: 'gcr.io/cloud-builders/gcloud'
-  dir: "build"
+  dir: "app"
   args: ["app", "deploy"]
   timeout: "30m0s"
