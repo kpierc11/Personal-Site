@@ -1,3 +1,4 @@
+steps:
 # Step 1: For installing dependencies
 - name: 'gcr.io/cloud-builders/npm'
   dir: "app"
