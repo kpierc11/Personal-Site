@@ -73,6 +73,15 @@ function PortfolioSectionTwo() {
             <Card image={"/images/healthy_site.PNG"}></Card>
           </a>
         </div>
+        <div className="portfolio-column" style={{justifyContent:'flex-start'}}>
+          <a
+            href="https://wordpress-566797-2384908.cloudwaysapps.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Card image={"/images/center-stage.png"}></Card>
+          </a>
+        </div>
       </div>
     </div>
   );
