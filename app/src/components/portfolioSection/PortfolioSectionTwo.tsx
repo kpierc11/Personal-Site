@@ -79,7 +79,7 @@ function PortfolioSectionTwo() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Card image={"/images/center-stage.png"}></Card>
+            <Card image={"/images/center-stage.PNG"}></Card>
           </a>
         </div>
       </div>
