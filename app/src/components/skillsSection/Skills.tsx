@@ -1,34 +1,17 @@
 import "../skillsSection/skills.css";
-import {
-  DiHtml5,
-  DiCss3,
-  DiReact,
-  DiJavascript1,
-  DiMongodb,
-  DiJqueryLogo,
-} from "react-icons/di";
+import { DiReact, DiJavascript1 } from "react-icons/di";
 import {
   SiBootstrap,
-  SiBulma,
-  SiCodeigniter,
   SiCplusplus,
-  SiFirebase,
-  SiMacos,
   SiMysql,
   SiPhpstorm,
-  SiPrestashop,
   SiVisualstudio,
   SiVisualstudiocode,
 } from "react-icons/si";
 import {
   FaDesktop,
-  FaLess,
-  FaMagento,
   FaMicrosoft,
-  FaOpencart,
   FaPhp,
-  FaSass,
-  FaShopify,
   FaUbuntu,
   FaWordpress,
 } from "react-icons/fa";

@@ -1,9 +1,6 @@
-import { BiArrowBack, BiArrowToRight } from "react-icons/bi";
 import "../mobileAppSection/mobileAppSection.css";
 import { DiReact } from "react-icons/di";
-import { GiArrowWings, GiSpineArrow } from "react-icons/gi";
-import { SiFirebase, SiLua, SiMaterialdesign, SiTypescript, SiWordpress } from "react-icons/si";
-import { FaArrowRight } from "react-icons/fa";
+import { SiLua, SiMaterialdesign, SiTypescript, SiWordpress } from "react-icons/si";
 
 function MobileAppSection() {
   return (
