@@ -16,10 +16,7 @@ function App() {
         <About></About>
       </FadeInAnimation>
       <FadeInAnimation>
-        <Skills></Skills>ß
-      </FadeInAnimation>
-      <FadeInAnimation>
-        <PortfolioSectionTwo></PortfolioSectionTwo>
+        <Skills></Skills>
       </FadeInAnimation>
       <FadeInAnimation>
         <MobileAppSection></MobileAppSection>

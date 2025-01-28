@@ -1,38 +1,43 @@
+import { BiArrowBack, BiArrowToRight } from "react-icons/bi";
 import "../mobileAppSection/mobileAppSection.css";
 import { DiReact } from "react-icons/di";
-import { SiFirebase, SiTypescript } from "react-icons/si";
+import { GiArrowWings, GiSpineArrow } from "react-icons/gi";
+import { SiFirebase, SiTypescript, SiWordpress } from "react-icons/si";
+import { FaArrowRight } from "react-icons/fa";
 
 function MobileAppSection() {
   return (
     <div className="mobile-app-section-container">
       <h1 id="my-work" style={{ textAlign: "center" }}>
-        Mobile Apps
+        Projects
       </h1>
       <div className="mobile-app-section-row">
         <div className="mobile-app-section-column">
           <div className="mobile-app-section-card">
             <img
               className="phone-image"
-              src="/images/to-do-app-pic.png"
+              src="/images/heroes-codex.png"
               alt="iphone"
             ></img>
-            <div className="mobile-overlay">
-              <h1 style={{ color: "white" }}>Simple To Do App</h1>
-              <p style={{ color: "white", padding: 20 }}>
-                This is a very simple to do app that has basic list
-                functionality.
+            <div className="app-card-detail">
+              <h3>Heroes Codex</h3>
+              <p>
+                The Heroes Codex app is designed to provide, build guides and
+                game news for heroes of the storm. This has been a passion
+                project that me and my brother have been working on for one of
+                our all time favorite games.
               </p>
-              <p style={{ color: "white", padding: 20 }}>
+              <p>
                 Built with:
                 <div>
-                  <SiTypescript className="app-language-icon"></SiTypescript>
+                  <SiWordpress className="app-language-icon"></SiWordpress>
                   <DiReact className="app-language-icon"></DiReact>
                 </div>
               </p>
               <div className="app-button-container">
                 <a
                   className="app-button"
-                  href="https://expo.dev/@kpierc11/todo-application"
+                  href="https://heroescodex.com/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
@@ -46,16 +51,16 @@ function MobileAppSection() {
           <div className="mobile-app-section-card">
             <img
               className="phone-image"
-              src="/images/incredible-towns-phone-pic.png"
+              src="/images/heroes-codex.png"
               alt="iphone"
             ></img>
-            <div className="mobile-overlay">
-              <h1 style={{ color: "white" }}>Networking Group Application</h1>
-              <p style={{ color: "white", padding: 20 }}>
+            <div className="app-card-detail">
+              <h3>Networking Group Application</h3>
+              <p>
                 This is a social app/business directory for the Incredible Towns
                 networking Group
               </p>
-              <p style={{ color: "white", padding: 20 }}>
+              <p>
                 Built with:
                 <div>
                   <SiTypescript className="app-language-icon"></SiTypescript>
