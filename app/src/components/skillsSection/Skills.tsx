@@ -11,12 +11,14 @@ import {
   SiBootstrap,
   SiBulma,
   SiCodeigniter,
+  SiCplusplus,
   SiFirebase,
   SiMacos,
   SiMysql,
   SiPhpstorm,
   SiPrestashop,
   SiVisualstudio,
+  SiVisualstudiocode,
 } from "react-icons/si";
 import {
   FaDesktop,
@@ -47,16 +49,10 @@ function Skills() {
             <h2>Front End</h2>
             <p className="skill-text">Languages</p>
             <DiJavascript1 className="language-icon"></DiJavascript1>
-            <DiHtml5 className="language-icon"></DiHtml5>
-            <DiCss3 className="language-icon"></DiCss3>
             <p className="skill-text">Frameworks</p>
             <DiReact className="language-icon"></DiReact>
-            <DiJqueryLogo className="language-icon"></DiJqueryLogo>
+            <p className="skill-text">CSS</p>
             <SiBootstrap className="language-icon"></SiBootstrap>
-            <SiBulma className="language-icon"></SiBulma>
-            <p className="skill-text">Preprocessors</p>
-            <FaSass className="language-icon"></FaSass>
-            <FaLess className="language-icon"></FaLess>
           </div>
         </div>
         <div className="skills-column">
@@ -67,12 +63,9 @@ function Skills() {
             <h2>Backend</h2>
             <p className="skill-text">Languages</p>
             <FaPhp className="language-icon"></FaPhp>
+            <SiCplusplus className="language-icon"></SiCplusplus>
             <p className="skill-text">Databases</p>
             <SiMysql className="language-icon"></SiMysql>
-            <DiMongodb className="language-icon"></DiMongodb>
-            <SiFirebase className="language-icon"></SiFirebase>
-            <p className="skill-text">Frameworks</p>
-            <SiCodeigniter className="language-icon"></SiCodeigniter>
           </div>
         </div>
         <div className="skills-column">
@@ -83,16 +76,12 @@ function Skills() {
             <h2>Software</h2>
             <p className="skill-text">CMS</p>
             <FaWordpress className="language-icon"></FaWordpress>
-            <FaMagento className="language-icon"></FaMagento>
-            <FaOpencart className="language-icon"> </FaOpencart>
-            <SiPrestashop className="language-icon"></SiPrestashop>
-            <FaShopify className="language-icon"></FaShopify>
             <p className="skill-text">OS</p>
             <FaMicrosoft className="language-icon"></FaMicrosoft>
             <FaUbuntu className="language-icon"></FaUbuntu>
-            <SiMacos className="language-icon"></SiMacos>
             <p className="skill-text">IDE</p>
             <SiVisualstudio className="language-icon"></SiVisualstudio>
+            <SiVisualstudiocode className="language-icon"></SiVisualstudiocode>
             <SiPhpstorm className="language-icon"></SiPhpstorm>
           </div>
         </div>
