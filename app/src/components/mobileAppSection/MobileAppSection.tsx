@@ -2,7 +2,7 @@ import { BiArrowBack, BiArrowToRight } from "react-icons/bi";
 import "../mobileAppSection/mobileAppSection.css";
 import { DiReact } from "react-icons/di";
 import { GiArrowWings, GiSpineArrow } from "react-icons/gi";
-import { SiFirebase, SiTypescript, SiWordpress } from "react-icons/si";
+import { SiFirebase, SiLua, SiMaterialdesign, SiTypescript, SiWordpress } from "react-icons/si";
 import { FaArrowRight } from "react-icons/fa";
 
 function MobileAppSection() {
@@ -51,27 +51,57 @@ function MobileAppSection() {
           <div className="mobile-app-section-card">
             <img
               className="phone-image"
-              src="/images/heroes-codex.png"
+              src="/images/dashboard-demo.png"
               alt="iphone"
             ></img>
             <div className="app-card-detail">
-              <h3>Networking Group Application</h3>
+              <h3>Dashboard Demo</h3>
               <p>
-                This is a social app/business directory for the Incredible Towns
-                networking Group
+                This demo dashboard made with material ui design. 
               </p>
               <p>
                 Built with:
                 <div>
                   <SiTypescript className="app-language-icon"></SiTypescript>
                   <DiReact className="app-language-icon"></DiReact>
-                  <SiFirebase className="app-language-icon"></SiFirebase>
+                  <SiMaterialdesign className="app-language-icon"></SiMaterialdesign>
                 </div>
               </p>
               <div className="app-button-container">
                 <a
                   className="app-button"
-                  href="https://expo.dev/@kpierc11/incredible-towns-app"
+                  href="https://dashboard210.netlify.app/"
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  See Application
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="mobile-app-section-column">
+          <div className="mobile-app-section-card">
+            <img
+              className="phone-image"
+              src="/images/mount-music-addon.png"
+              alt="iphone"
+            ></img>
+            <div className="app-card-detail">
+              <h3>Mount Music Addon</h3>
+              <p>
+                This addon allows you to play music when riding a mount in world of warcraft.  
+              </p>
+              <p>
+                Built with:
+                <div>
+                  <SiLua className="app-language-icon"></SiLua>
+                </div>
+              </p>
+              <div className="app-button-container">
+                <a
+                  className="app-button"
+                  href="https://dashboard210.netlify.app/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >

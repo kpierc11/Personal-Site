@@ -15,15 +15,14 @@
 }
 
 .mobile-app-section-column {
-  flex: 1 0 33%;
   display:flex;
   justify-content: center;
   align-items: flex-start;
 }
 
 .mobile-app-section-card {
-  height: auto;
-  width: auto;
+  height: 100%;
+  width: 500px;
   position: relative;
   border-radius: 5px;
   transition: ease 0.5s;
@@ -37,10 +36,11 @@
 
 .phone-image {
   width: 100%;
-  height: auto;
+  height: 300px;
   object-fit: cover;
   border-top-left-radius: 5px;
   border-top-right-radius:5px;
+  border-bottom:3px solid #483d8b;
 }
 
 .app-card-detail {
