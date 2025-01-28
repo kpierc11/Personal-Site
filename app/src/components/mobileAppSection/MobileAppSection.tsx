@@ -98,7 +98,7 @@ function MobileAppSection() {
               <div className="app-button-container">
                 <a
                   className="app-button"
-                  href="https://dashboard210.netlify.app/"
+                  href="https://www.curseforge.com/wow/addons/wow-mount-music"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
