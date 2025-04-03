@@ -44,7 +44,7 @@ function Banner() {
             <div className="resume-button-container">
               <a
                 className="header-button"
-                href="assets/kaleb_pierce_resume.pdf"
+                href="assets/kaleb_pierce_resume _web.pdf"
                 download
                 rel="noopener noreferrer"
                 target="_blank"
