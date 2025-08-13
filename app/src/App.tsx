@@ -5,6 +5,7 @@ import Navbar from "./components/header/Navbar";
 import Skills from "./components/skillsSection/Skills";
 import MobileAppSection from "./components/mobileAppSection/MobileAppSection";
 import About from "./components/aboutSection/About";
+import PortfolioSectionTwo from "./components/portfolioSection/PortfolioSectionTwo";
 
 function App() {
   return (

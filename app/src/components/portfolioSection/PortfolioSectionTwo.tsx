@@ -5,7 +5,7 @@ function PortfolioSectionTwo() {
   return (
     <div className="portfolio-container">
       <h1 id="my-work" style={{ textAlign: "center" }}>
-        Web Design
+        Websites
       </h1>
       <div className="portfolio-row">
         <div className="portfolio-column">

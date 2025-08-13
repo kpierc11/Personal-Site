@@ -2,6 +2,7 @@ import { FaFacebook, FaGithub, FaLinkedin, FaReact } from "react-icons/fa";
 import "./footer.css";
 
 function Footer() {
+
   return (
     <div className="footer-container">
       <div className="footer-row">
@@ -32,7 +33,7 @@ function Footer() {
             </a>
           </div>
           <p className="footer-sub-header">
-            Copyright 2021 Made By Kaleb Pierce
+            &copy; Copyright {new Date().getFullYear()} Made By Kaleb Pierce
           </p>
           <p className="footer-sub-header">
             Created with React <FaReact className="react-icon" />

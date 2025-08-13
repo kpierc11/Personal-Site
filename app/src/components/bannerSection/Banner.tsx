@@ -19,13 +19,6 @@ function Banner() {
           </p>
           <div className="social-icons">
             <a
-              href="https://www.facebook.com/kaleb.pierce.9"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FaFacebook className="social-icon"></FaFacebook>
-            </a>
-            <a
               href="https://github.com/kpierc11"
               target="_blank"
               rel="noopener noreferrer"
@@ -44,7 +37,7 @@ function Banner() {
             <div className="resume-button-container">
               <a
                 className="header-button"
-                href="assets/kaleb_pierce_resume _web.pdf"
+                href="assets/kaleb_pierce_resume _web_3.pdf"
                 download
                 rel="noopener noreferrer"
                 target="_blank"
