@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui" {
+  themes: nord --default, sunset --prefersdark;
+}
+
+html {
+  height:100%;
+}
+
+body {
+  height:100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
