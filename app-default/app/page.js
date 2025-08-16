@@ -1,27 +1,27 @@
 import Image from "next/image";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import Hero from "@/sections/hero/Hero";
+import About from "@/sections/about/About";
+import Skills from "@/sections/skills/Skills";
+import FadeInAnimation from "@/components/animation/FadeInAnimation";
+
 
 export default function Home() {
   return (
     <>
       <Header></Header>
-      <div className="card bg-base-100 w-96 shadow-sm">
-        <figure>
-          <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-            alt="Shoes"
-          />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">Card Title</h2>
-          <p>
-            A card component has a figure, a body part, and inside body there
-            are title and actions parts
-          </p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+      <div className="flex justify-center w-[100%]">
+        <div className="max-w-[1600px] ml-3 mr-3">
+          <FadeInAnimation>
+          <Hero></Hero>
+          </FadeInAnimation>
+          <FadeInAnimation>
+          <About></About>
+          </FadeInAnimation>
+          <FadeInAnimation>
+            <Skills></Skills>
+          </FadeInAnimation>
         </div>
       </div>
       <Footer></Footer>

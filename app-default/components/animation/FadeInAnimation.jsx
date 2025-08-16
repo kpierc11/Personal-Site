@@ -1,16 +1,9 @@
-import React, { useEffect, useRef, useState } from "react";
+"use client";
+import { useEffect, useRef, useState } from "react";
 
-function FadeInAnimation(props: {
-  children:
-    | boolean
-    | React.ReactChild
-    | React.ReactFragment
-    | React.ReactPortal
-    | null
-    | undefined;
-}) {
+function FadeInAnimation({ children }) {
   const [isVisible, setVisibility] = useState(false);
-  const domRef: any = useRef();
+  const domRef = useRef(null);
   const hidden = {
     opacity: 0,
     Visibility: "hidden",
@@ -38,7 +31,7 @@ function FadeInAnimation(props: {
 
   return (
     <div style={isVisible ? show : hidden} ref={domRef}>
-      {props.children}
+      {children}
     </div>
   );
 }

@@ -1,13 +1,22 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: nord --default, sunset --prefersdark;
-}
-
-html {
-  height:100%;
+  themes: emerald --default, night --prefersdark;
 }
 
 body {
   height:100%;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.banner-background {
+  position:absolute;
+  z-index:-1;
+  border-radius:99%;
+  top:0;
+  height:100%;
+  width:100%;
+  opacity:.3;
+  background: linear-gradient(var(--color-primary), var(--color-secondary));
+  filter: blur(8rem);
 }
