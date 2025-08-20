@@ -4,6 +4,7 @@ import Footer from "@/components/footer/Footer";
 import Hero from "@/sections/hero/Hero";
 import About from "@/sections/about/About";
 import Skills from "@/sections/skills/Skills";
+import Projects from "@/sections/projects/Projects";
 import FadeInAnimation from "@/components/animation/FadeInAnimation";
 
 
@@ -21,6 +22,9 @@ export default function Home() {
           </FadeInAnimation>
           <FadeInAnimation>
             <Skills></Skills>
+          </FadeInAnimation>
+          <FadeInAnimation>
+            <Projects></Projects>
           </FadeInAnimation>
         </div>
       </div>
