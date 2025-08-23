@@ -42,25 +42,29 @@ export default function About() {
   ];
 
   return (
-    <div id="about" className="mt-[15%]">
-      <h2 className="text-3xl font-bold text-center">About Me</h2>
+    <section id="about" className="mt-[100px]">
+      <h2 className="font-bold text-3xl md:text-5lg lg:text-5xl text-center">
+        About Me
+      </h2>
 
-      <div className="grid gap-6 mt-20 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-        {cards.map(({ icon: Icon, title, text }, idx) => (
-          <div
-            key={idx}
-            className="card cursor-pointer shadow-lg hover:-translate-y-2 transition-transform duration-300 min-h-[300px] w-full mx-auto"
-          >
-            <div className="card-body">
-              <div className="">
-                <Icon className="size-[8em]" />
+      {
+        <div id="about-card-container" className="flex flex-row flex-wrap gap-5 w-[100%] mt-[30px]">
+          {cards.map(({ icon: Icon, title, text }, idx) => (
+            <div
+              key={idx}
+              className="card cursor-pointer border-2 border-primary shadow-xl hover:-translate-y-2 transition-transform duration-300"
+            >
+              <div className="card-body">
+                <div className="">
+                  <Icon className="size-[5em]" />
+                </div>
+                <h2 className="card-title">{title}</h2>
+                <p>{text}</p>
               </div>
-              <h2 className="card-title">{title}</h2>
-              <p>{text}</p>
             </div>
-          </div>
-        ))}
-      </div>
-    </div>
+          ))}
+        </div>
+      }
+    </section>
   );
 }

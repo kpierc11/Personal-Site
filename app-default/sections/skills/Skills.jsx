@@ -20,10 +20,13 @@ import {
 
 export default function Skills() {
   return (
-    <div id="skills" className="flex justify-center flex-col w-[100%] mt-[10%]">
-      <h1 className="text-4xl font-bold mb-12 text-center">Skills</h1>
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5">
-        <div className="flex flex-col flex-wrap gap-10">
+    <section id="skills" className="mt-[100px]">
+      <h1 className="text-2lg md:text-5lg lg:text-5xl font-bold mb-12 text-center">
+        Skills
+      </h1>
+
+      <div className="flex flex-row flex-wrap grow justify-items-center gap-20 w-[100%] outline-dashed outline-1 rounded-[1rem] outline-primary p-4">
+        <div className="flex flex-col items-center flex-wrap gap-10 grow">
           <h2 className="text-xl">Programming Languages</h2>
           <div className="flex flex-row items-center gap-3">
             <FaPhp className="size-[3em]"></FaPhp>
@@ -68,7 +71,7 @@ export default function Skills() {
         </div>
 
         {/** Content Management Systems */}
-        <div className="flex flex-col flex-wrap gap-10">
+        <div className="flex flex-col flex-wrap gap-10 grow items-center">
           <h2 className="text-xl">Content Managment Systems</h2>
           <div className="flex flex-row items-center gap-3">
             <FaWordpress className="size-[3em]"></FaWordpress>
@@ -95,7 +98,51 @@ export default function Skills() {
             ></progress>
           </div>
         </div>
+
+        <div className="flex flex-col flex-wrap gap-10 grow items-center ">
+          <h2 className="text-xl">Programming Languages</h2>
+          <div className="flex flex-row items-center gap-3">
+            <FaPhp className="size-[3em]"></FaPhp>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <DiJavascript1 className="size-[3em]"></DiJavascript1>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <SiCplusplus className="size-[3em]"></SiCplusplus>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={50}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <FaNode className="size-[3em]"></FaNode>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={50}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <SiLua className="size-[3em]"></SiLua>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={50}
+              max="100"
+            ></progress>
+          </div>
+        </div>
       </div>
-    </div>
+    </section>
   );
 }

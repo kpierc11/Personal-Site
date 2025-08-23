@@ -50,7 +50,7 @@ export default class Game {
     const positions = new Float32Array(particleCount * 3);
 
     const colors = new Float32Array(particleCount * 3);
-    const colorInside = new THREE.Color("#FFE4B5");
+    const colorInside = new THREE.Color("#D8BFD8");
     const colorOutside = new THREE.Color("#191970");
 
     for (let i = 0; i < particleCount; i++) {
@@ -114,23 +114,41 @@ export default class Game {
     this.scene.add(this.particles);
 
     // Handle resize
-    window.addEventListener("resize", () => {
-      this.camera.aspect = window.innerWidth / window.innerHeight;
-      this.camera.updateProjectionMatrix();
-      this.renderer.setSize(window.innerWidth, window.innerHeight);
-    });
+    // window.addEventListener("resize", () => {
+    //   this.camera.aspect = canvasContainer.clientWidth / canvasContainer.clientHeight;
+    //   this.camera.updateProjectionMatrix();
+    //   this.renderer.setSize(canvasContainer.clientWidth, canvasContainer.clientHeight);
+    // });
 
     this.camera.position.z = 7;
-    this.camera.rotation.z = 10;
     this.particles.rotation.x = 1;
-    this.particles.rotation.z = .05;
-    
+    this.particles.rotation.z = 0.05;
   }
 
   draw() {
     if (!this.scene || !this.camera || !this.renderer) return;
 
-    this.controls.update();
+    const positions = this.particles.geometry.attributes.position;
+    const time = performance.now() * 0.0000009; // smaller = slower
+
+    for (let i = 0; i < positions.count; i++) {
+      const i3 = i * 3;
+      const x = positions.array[i3];
+      const z = positions.array[i3 + 2];
+
+      // rotation speed depends on radius
+      const radius = Math.sqrt(x * x + z * z);
+      const angle = 0.0016 * (0.2 + radius * 0.05);
+
+      const cos = Math.cos(angle);
+      const sin = Math.sin(angle);
+
+      positions.array[i3] = x * cos - z * sin;
+      positions.array[i3 + 2] = x * sin + z * cos;
+    }
+
+    positions.needsUpdate = true;
+this.controls.update()
 
     // Render scene
     this.renderer.render(this.scene, this.camera);

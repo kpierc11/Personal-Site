@@ -1,16 +1,28 @@
 export default function Footer() {
   return (
-    <footer className="footer flex justify-center flex-wrap bg-neutral text-neutral-content items-center p-1 mb-0 w-auto h-[200px] mt-100 ">
+    <footer className="footer flex justify-center flex-wrap bg-neutral text-neutral-content items-center p-1 mb-0 w-auto h-[200px] mt-60 ">
       <div className="flex flex-wrap justify-center gap-4 mr-3">
         <div>
           <p>Copyright © {new Date().getFullYear()} Kaleb Pierce</p>
         </div>
-        <div>
-          <p>Made with Nextjs and Daisy UI</p>
+        <div className="flex flex-row gap-2">
+          <p>Made using </p>
+          <a className="underline" href="https://nextjs.org/" target="_blank">
+            Nextjs
+          </a>
+          <p>and</p>
+          <a className="underline" href="https://daisyui.com/" target="_blank">
+            Daisy UI
+          </a>
         </div>
       </div>
-      <nav className="flex gap-4">
-        <a>
+      <nav className="flex gap-3">
+        {/* GitHub */}
+        <a
+          href="https://github.com/kpierc11"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -18,10 +30,16 @@ export default function Footer() {
             viewBox="0 0 24 24"
             className="fill-current"
           >
-            <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path>
+            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.3 9.4 7.9 10.9.6.1.8-.3.8-.6v-2c-3.2.7-3.9-1.4-3.9-1.4-.5-1.3-1.2-1.7-1.2-1.7-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.6 2.2 2.7 2.3.6-.5.9-1 .9-1.7-2.6-.3-5.4-1.3-5.4-5.8 0-1.3.5-2.4 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a11.2 11.2 0 0 1 5.8 0c2.2-1.5 3.2-1.2 3.2-1.2.6 1.6.2 2.8.1 3.1.7.8 1.2 1.9 1.2 3.2 0 4.6-2.8 5.5-5.4 5.8.4.3.9 1 .9 2.1v3.1c0 .3.2.7.8.6A11.6 11.6 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z" />
           </svg>
         </a>
-        <a>
+
+        {/* LinkedIn */}
+        <a
+          href="https://www.linkedin.com/in/kaleb-pierce-a829671b9/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -29,18 +47,7 @@ export default function Footer() {
             viewBox="0 0 24 24"
             className="fill-current"
           >
-            <path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path>
-          </svg>
-        </a>
-        <a>
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="24"
-            height="24"
-            viewBox="0 0 24 24"
-            className="fill-current"
-          >
-            <path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path>
+            <path d="M20.45 20.45h-3.55v-5.4c0-1.3 0-3-1.85-3s-2.1 1.4-2.1 2.9v5.5H9.4V9h3.4v1.6h.05c.5-1 1.7-2 3.5-2 3.7 0 4.4 2.4 4.4 5.4v6.4zM5.35 7.35a2.06 2.06 0 1 1 0-4.1 2.06 2.06 0 0 1 0 4.1zM7.1 20.45H3.6V9h3.5v11.45zM22.25 0H1.75C.8 0 0 .8 0 1.75v20.5C0 23.2.8 24 1.75 24h20.5c.95 0 1.75-.8 1.75-1.75V1.75C24 .8 23.2 0 22.25 0z" />
           </svg>
         </a>
       </nav>
