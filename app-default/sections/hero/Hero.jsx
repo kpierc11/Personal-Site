@@ -1,6 +1,6 @@
 "use client";
 import { FaDownload } from "react-icons/fa6";
-import { useEffect, useRef } from "react";
+import { useEffect} from "react";
 import Game from "@/components/game/Game";
 
 export default function Hero() {

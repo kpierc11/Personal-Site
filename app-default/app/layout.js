@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 export const metadata = {
   title: "Kaleb Pierce Portfolio",
   description:
-    "A porfolio site for kaleb pierce. Build with reactjs and daisyUI.",
+    "A porfolio site for kaleb pierce. Built with nextjs and daisyUI.",
 };
 
 export default function RootLayout({ children }) {

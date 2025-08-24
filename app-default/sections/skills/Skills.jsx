@@ -1,27 +1,21 @@
 "use client";
-import { DiReact, DiJavascript1 } from "react-icons/di";
+import { DiJavascript1 } from "react-icons/di";
 import {
-  SiBootstrap,
   SiCplusplus,
   SiMysql,
-  SiPhpstorm,
   SiLua,
   SiWpengine,
   SiCloudways,
   SiExpress,
-  SiMongodb,
 } from "react-icons/si";
 import {
-  FaDesktop,
-  FaMicrosoft,
   FaPhp,
   FaUbuntu,
   FaWordpress,
   FaNode,
   FaShopify,
-  FaMagento,
 } from "react-icons/fa";
-import { FaGit, FaReact } from "react-icons/fa6";
+import { FaGit, FaReact, FaWindows } from "react-icons/fa6";
 
 export default function Skills() {
   return (
@@ -148,6 +142,24 @@ export default function Skills() {
             <progress
               className="progress progress-accent h-[15px] w-56"
               value={80}
+              max="100"
+            ></progress>
+          </div>
+
+          <h2 className="text-xl">Operating Systems</h2>
+          <div className="flex flex-row items-center gap-3">
+            <FaWindows className="size-[3em]" />
+            <progress
+              className="progress progress-accent h-[15px] w-56"
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <FaUbuntu className="size-[3em]" />
+            <progress
+              className="progress progress-accent h-[15px] w-56"
+              value={40}
               max="100"
             ></progress>
           </div>

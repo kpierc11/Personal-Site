@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { OrbitControls } from "three/addons/controls/OrbitControls.js";
+//import { OrbitControls } from "three/addons/controls/OrbitControls.js";
 
 export default class Game {
   renderer;
@@ -42,8 +42,8 @@ export default class Game {
 
     this.camera.position.z = 5;
 
-    this.controls = new OrbitControls(this.camera, this.renderer.domElement);
-    this.controls.update();
+    // this.controls = new OrbitControls(this.camera, this.renderer.domElement);
+    // this.controls.update();
 
     const particleCount = 10000;
     const particlesGeometry = new THREE.BufferGeometry();
@@ -148,7 +148,7 @@ export default class Game {
     }
 
     positions.needsUpdate = true;
-this.controls.update()
+    //this.controls.update();
 
     // Render scene
     this.renderer.render(this.scene, this.camera);
