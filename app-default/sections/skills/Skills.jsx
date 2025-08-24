@@ -6,6 +6,10 @@ import {
   SiMysql,
   SiPhpstorm,
   SiLua,
+  SiWpengine,
+  SiCloudways,
+  SiExpress,
+  SiMongodb,
 } from "react-icons/si";
 import {
   FaDesktop,
@@ -17,6 +21,7 @@ import {
   FaShopify,
   FaMagento,
 } from "react-icons/fa";
+import { FaGit, FaReact } from "react-icons/fa6";
 
 export default function Skills() {
   return (
@@ -64,7 +69,24 @@ export default function Skills() {
             <SiLua className="size-[3em]"></SiLua>
             <progress
               className="progress progress-primary h-[15px] w-56"
-              value={50}
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+          <h2 className="text-xl">Frameworks</h2>
+          <div className="flex flex-row items-center gap-3">
+            <FaReact className="size-[3em]"></FaReact>
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+          <div className="flex flex-row items-center gap-3">
+            <SiExpress className="size-[3em]" />
+            <progress
+              className="progress progress-primary h-[15px] w-56"
+              value={30}
               max="100"
             ></progress>
           </div>
@@ -82,14 +104,6 @@ export default function Skills() {
             ></progress>
           </div>
           <div className="flex flex-row items-center gap-3">
-            <FaMagento className="size-[3em]"></FaMagento>
-            <progress
-              className="progress progress-secondary h-[15px] w-56"
-              value={40}
-              max="100"
-            ></progress>
-          </div>
-          <div className="flex flex-row items-center gap-3">
             <FaShopify className="size-[3em]"></FaShopify>
             <progress
               className="progress progress-secondary h-[15px] w-56"
@@ -97,47 +111,43 @@ export default function Skills() {
               max="100"
             ></progress>
           </div>
+
+          <h2 className="text-xl">Database Software</h2>
+          <div className="flex flex-row items-center gap-3">
+            <SiMysql className="size-[3em]" />
+            <progress
+              className="progress progress-secondary h-[15px] w-56"
+              value={70}
+              max="100"
+            ></progress>
+          </div>
+
+          <h2 className="text-xl">Source Control</h2>
+          <div className="flex flex-row items-center gap-3">
+            <FaGit className="size-[3em]" />
+            <progress
+              className="progress progress-secondary h-[15px] w-56"
+              value={60}
+              max="100"
+            ></progress>
+          </div>
         </div>
 
         <div className="flex flex-col flex-wrap gap-10 grow items-center ">
-          <h2 className="text-xl">Programming Languages</h2>
+          <h2 className="text-xl">Hosting Platforms</h2>
           <div className="flex flex-row items-center gap-3">
-            <FaPhp className="size-[3em]"></FaPhp>
+            <SiWpengine className="size-[3em]" />
             <progress
-              className="progress progress-primary h-[15px] w-56"
-              value={70}
+              className="progress progress-accent h-[15px] w-56"
+              value={60}
               max="100"
             ></progress>
           </div>
           <div className="flex flex-row items-center gap-3">
-            <DiJavascript1 className="size-[3em]"></DiJavascript1>
+            <SiCloudways className="size-[3em]" />
             <progress
-              className="progress progress-primary h-[15px] w-56"
-              value={70}
-              max="100"
-            ></progress>
-          </div>
-          <div className="flex flex-row items-center gap-3">
-            <SiCplusplus className="size-[3em]"></SiCplusplus>
-            <progress
-              className="progress progress-primary h-[15px] w-56"
-              value={50}
-              max="100"
-            ></progress>
-          </div>
-          <div className="flex flex-row items-center gap-3">
-            <FaNode className="size-[3em]"></FaNode>
-            <progress
-              className="progress progress-primary h-[15px] w-56"
-              value={50}
-              max="100"
-            ></progress>
-          </div>
-          <div className="flex flex-row items-center gap-3">
-            <SiLua className="size-[3em]"></SiLua>
-            <progress
-              className="progress progress-primary h-[15px] w-56"
-              value={50}
+              className="progress progress-accent h-[15px] w-56"
+              value={80}
               max="100"
             ></progress>
           </div>
