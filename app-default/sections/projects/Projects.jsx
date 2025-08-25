@@ -97,7 +97,7 @@ export default function Projects() {
                     <h2 className="card-title">{title}</h2>
                     <p>{text}</p>
                     <div className="card-actions justify-end">
-                      <a className="btn btn-primary" href={`${buttonLink}`}>
+                      <a className="btn btn-primary" href={`${buttonLink}`} target="_blank">
                         {buttonText}
                       </a>
                     </div>
