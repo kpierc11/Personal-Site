@@ -26,7 +26,7 @@ export default function Hero() {
         <a
           className="btn btn-primary mt-10 transform transition-all duration-300 ease-in-out 
                transform hover:-translate-y-[10px] "
-          href="assets/kaleb_pierce_resume _web_3.pdf"
+          href="assets/kaleb_pierce_resume _web_4.pdf"
           download
           rel="noopener noreferrer"
           target="_blank"
