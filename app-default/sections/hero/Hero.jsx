@@ -28,6 +28,7 @@ export default function Hero() {
           href="/assets/kaleb_pierce_resume_web_4.pdf"
           download
           rel="noopener noreferrer"
+          target="_blank"
         >
           Download Resume
           <FaDownload className="size-[1.2em] ml-1" />
