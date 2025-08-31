@@ -1,6 +1,6 @@
 "use client";
 import { FaDownload } from "react-icons/fa6";
-import { useEffect} from "react";
+import { useEffect } from "react";
 import Game from "@/components/game/Game";
 
 export default function Hero() {
@@ -10,7 +10,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="mt-[30px] flex flex-row justify-center items-center flex-wrap backdrop-blur-md rounded-md bg relative ">
+    <div className="mt-[30px] flex flex-row justify-center items-center flex-wrap-reverse backdrop-blur-md rounded-md bg relative ">
       <div className="banner-background">test div</div>
       <div className=" basis-[50%] grow p-1 m-2">
         <h1 className="font-bold text-2xl md:text-5xl lg:text-7xl">
@@ -24,12 +24,10 @@ export default function Hero() {
           solutions.
         </p>
         <a
-          className="btn btn-primary mt-10 transform transition-all duration-300 ease-in-out 
-               transform hover:-translate-y-[10px] "
-          href="assets/kaleb_pierce_resume _web_4.pdf"
+          className="btn btn-primary mt-10 transform transition-all duration-300 ease-in-out hover:-translate-y-[10px]"
+          href="/kaleb_pierce_resume_web_4.pdf"
           download
           rel="noopener noreferrer"
-          target="_blank"
         >
           Download Resume
           <FaDownload className="size-[1.2em] ml-1" />

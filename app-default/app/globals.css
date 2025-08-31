@@ -26,15 +26,11 @@ body {
 
 @media (max-width: 820px) {
   #canvas-container {
-    max-width: 300px;
+    max-width: 220px;
   }
 }
 
-@media (max-width: 600px) {
-  #canvas-container {
-    max-width: 250px;
-  }
-}
+
 
 #about-card-container > div {
   flex-basis: calc(33.33% - 20px);
