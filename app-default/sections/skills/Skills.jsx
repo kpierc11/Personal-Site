@@ -20,9 +20,9 @@ import { FaGit, FaReact, FaWindows } from "react-icons/fa6";
 export default function Skills() {
   return (
     <section id="skills" className="mt-[100px]">
-      <h1 className="text-2lg md:text-5lg lg:text-5xl font-bold mb-12 text-center">
+      <h2 className="font-bold text-3xl md:text-5lg lg:text-5xl text-center mb-[20px]">
         Skills
-      </h1>
+      </h2>
 
       <div className="flex flex-row flex-wrap grow justify-items-center gap-20 w-[100%] outline-dashed outline-1 rounded-[1rem] outline-primary p-4">
         <div className="flex flex-col items-center flex-wrap gap-10 grow">

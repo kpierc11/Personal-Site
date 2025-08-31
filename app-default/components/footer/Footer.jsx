@@ -1,7 +1,7 @@
 export default function Footer() {
   return (
     <footer className="footer flex justify-center flex-wrap bg-neutral text-neutral-content items-center p-1 mb-0 w-auto h-[200px] mt-60 ">
-      <div className="flex flex-wrap justify-center gap-4 mr-3">
+      <div className="flex flex-wrap justify-center gap-2 mr-3">
         <div>
           <p>Copyright © {new Date().getFullYear()} Kaleb Pierce</p>
         </div>

@@ -43,12 +43,12 @@ export default function About() {
 
   return (
     <section id="about" className="mt-[100px]">
-      <h2 className="font-bold text-3xl md:text-5lg lg:text-5xl text-center">
+      <h2 className="font-bold text-3xl md:text-5lg lg:text-5xl text-center mb-[20px]">
         About Me
       </h2>
 
       {
-        <div id="about-card-container" className="flex flex-row flex-wrap gap-5 w-[100%] mt-[30px]">
+        <div id="about-card-container" className="flex flex-row flex-wrap gap-5 w-[100%]">
           {cards.map(({ icon: Icon, title, text }, idx) => (
             <div
               key={idx}

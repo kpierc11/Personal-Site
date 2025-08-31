@@ -68,9 +68,9 @@ export default function Projects() {
       id="projects"
       className="flex justify-center items-center flex-col w-[100%] mt-[10%]"
     >
-      <h1 className="text-2lg md:text-5lg lg:text-5xl font-bold mb-12 text-center">
+      <h2 className="font-bold text-3xl md:text-5lg lg:text-5xl text-center mb-[20px]">
         Projects/Portfolio
-      </h1>
+      </h2>
       <div className="flex flex-row flex-wrap justify-center mt-5">
         {cards.map(
           ({ imageUrl, title, text, icons, buttonText, buttonLink }, index) => {
